@@ -2,7 +2,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 # For in house hosted API
 # Replace these values with your SecurityCenter information
-Tenable_SERVER = 'https://your-securitycenter-server'
+Tenable_SERVER = 'https://securitycenter-server'
 ACCESS_KEY = 'your-access-key'
 SECRET_KEY = 'your-secret-key'
 SCAN_ID = 1  # Replace with the ID of the scan you want to initiate
